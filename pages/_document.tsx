@@ -27,7 +27,7 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" href="icon.png" />
           <meta name="theme-color" content="#fafafa" />
         </Head>
-        <body className="dark:bg-zinc-900 dark:text-zinc-50 bg-zinc-50 text-zinc-900">
+        <body className="dark:bg-zinc-900 dark:text-zinc-50 bg-zinc-50 text-zinc-900 antialiased">
           <Main />
           <NextScript />
         </body>

@@ -1,11 +1,16 @@
 import { useTheme } from "next-themes";
 
-function Navigation() {
+function Footer() {
   const { theme, setTheme } = useTheme();
-
   return (
-    <div className="flex justify-between pt-8 pb-32">
-      <ul className="flex space-x-4">
+    <header className="flex justify-start space-x-32 pt-32 pb-8">
+      <ul className="flex flex-col space-y-4">
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+      <ul className="flex flex-col space-y-4">
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
@@ -16,8 +21,8 @@ function Navigation() {
           toggle
         </button>
       </div>
-    </div>
+    </header>
   );
 }
 
-export default Navigation;
+export default Footer;
