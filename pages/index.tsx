@@ -1,15 +1,15 @@
 import type { NextPage } from "next";
 import { useTheme } from "next-themes";
+import Navigation from "../components/Navigation";
 
 const Home: NextPage = () => {
   const { theme, setTheme } = useTheme();
 
   return (
     <>
-      <h1 className="font-bold text-4xl flex justify-center">Hello World</h1>{" "}
-      <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-        toggle
-      </button>
+      <Navigation />
+
+      <h1 className="font-bold text-4xl">Hello World</h1>
     </>
   );
 };
