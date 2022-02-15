@@ -17,7 +17,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Switzer-Variable", "Helvetica", "Arial", "sans-serif"],
+        sans: ["Switzer-Variable"],
       },
     },
   },
