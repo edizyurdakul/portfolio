@@ -16,7 +16,7 @@ function NavItem({ href, text }: { href: string; text: string }) {
         className={
           isActive
             ? "dark:text-zinc-50 text-zinc-900 p-2 transition-all ease-in-out rounded-md dark:hover:bg-zinc-800 dark:hover:text-zinc-50 hover:bg-zinc-200"
-            : "dark:text-zinc-400 text-zinc-500 p-2 transition-all ease-in-out rounded-md dark:hover:bg-zinc-800 dark:hover:text-zinc-200 hover:bg-zinc-200 hover:text-zinc-900"
+            : "dark:text-zinc-400 text-zinc-600 p-2 transition-all ease-in-out rounded-md dark:hover:bg-zinc-800 dark:hover:text-zinc-200 hover:bg-zinc-200 hover:text-zinc-900"
         }
       >
         {text}
