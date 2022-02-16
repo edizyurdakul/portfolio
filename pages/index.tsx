@@ -1,19 +1,27 @@
 import type { NextPage } from "next";
-import { useTheme } from "next-themes";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { hero, details } from "../data";
+import NextHead from "next/head";
 
 const Home: NextPage = () => {
-  const { theme, setTheme } = useTheme();
+  const { title, subTitle, description } = hero;
+  const { name } = details;
 
   return (
     <>
+      <NextHead>
+        <title>
+          {title} - {subTitle}
+        </title>
+        <meta name="description" content={description} />
+        <meta name="author" content={name} />
+      </NextHead>
       <Header />
-      <h1 className="font-bold text-4xl">Ediz Yurdakul</h1>
-      <p className="font-extralight">Frontend Web Developer</p>
-      <p className="font-extralight pt-4 sm:w-[55ch] w-[100%]">
-        Hello! I’m a front-end developer based in Cape Town, South Africa. I
-        spend most of my time learning more to develop my skills.
+      <h1 className="font-bold text-5xl">{title}</h1>
+      <p className="font-light">{subTitle}</p>
+      <p className="font-light text-zinc-300 pt-4 sm:w-[55ch] w-[100%]">
+        {description}
       </p>
       <Footer />
     </>
