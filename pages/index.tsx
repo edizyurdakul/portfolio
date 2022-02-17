@@ -20,8 +20,8 @@ const Home: NextPage = () => {
         <meta name="description" content={description} />
         <meta name="author" content={name} />
       </NextHead>
-      <Header />
-      <main className="py-32">
+
+      <main id="#content" className="py-32">
         <section>
           <h1 className="font-bold text-5xl">{title}</h1>
           <p className="font-normal">{subTitle}</p>
@@ -115,7 +115,6 @@ const Home: NextPage = () => {
           )}
         </section>
       </main>
-      <Footer />
     </>
   );
 };
