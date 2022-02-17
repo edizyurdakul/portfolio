@@ -2,6 +2,18 @@
 
 export const details = {
   name: "Ediz Yurdakul",
+  skills: [
+    {
+      name: "Frameworks",
+      frameworks: ["React", "NextJS", "GatsbyJS", "TailwindCSS", "Chakra UI"],
+    },
+    {
+      name: "Languages",
+      languages: ["HTML", "CSS", "SASS", "Javascript", "Typescript"],
+    },
+    { name: "Tools", tools: ["Git & GitHub", "Chrome Devtools"] },
+    { name: "Design", design: ["Figma"] },
+  ],
 };
 
 export const hero = {
@@ -58,5 +70,13 @@ export const projects = [
       "Feedback App allows users to enter, edit, and delete reviews with rating selection and text description. Connected to a JSON-Server(Deployed on Heroku) to create a fake API.",
     live: "https://feedback-app-edizyurdakul.vercel.app/",
     github: "https://github.com/edizyurdakul/feedback-app",
+  },
+];
+
+export const experience = [
+  {
+    job_title: "Web Developer",
+    company: "Dado Agency",
+    date: "Mar 2019 - Dec 2019",
   },
 ];

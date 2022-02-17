@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Works from "../components/Works";
 import Projects from "../components/Projects";
-import { hero, details, about } from "../data";
+import { hero, details, about, experience } from "../data";
 import NextHead from "next/head";
 import NextLink from "next/link";
 
@@ -51,6 +51,52 @@ const Home: NextPage = () => {
         <section className="pt-32">
           <h2 className="font-bold text-3xl mb-4 ">Projects</h2>
           <Projects />
+        </section>
+        <section className="pt-32">
+          <h2 className="font-bold text-3xl mb-4 ">Experience</h2>
+          {experience.map((exp, i) => (
+            <div key={i}>
+              <div className="flex justify-between">
+                <h3 className="text-lg">{exp.company}</h3>
+                <p className="text-sm font-extralight">{exp.date}</p>
+              </div>
+              <p className="text-sm font-extralight">{exp.job_title}</p>
+            </div>
+          ))}
+        </section>
+        <section className="pt-32">
+          <h2 className="font-bold text-3xl mb-4 ">Skills</h2>
+          {details.skills.length <= 0 ? null : (
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {details.skills.map((skill, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-medium mb-2">{skill.name}</h3>
+                  <div>
+                    {skill?.frameworks?.map((framework, index) => (
+                      <p className="font-light text-zinc-300" key={index}>
+                        {framework}
+                      </p>
+                    ))}
+                    {skill?.languages?.map((framework, index) => (
+                      <p className="font-light text-zinc-300" key={index}>
+                        {framework}
+                      </p>
+                    ))}
+                    {skill?.tools?.map((framework, index) => (
+                      <p className="font-light text-zinc-300" key={index}>
+                        {framework}
+                      </p>
+                    ))}
+                    {skill?.design?.map((framework, index) => (
+                      <p className="font-light text-zinc-300" key={index}>
+                        {framework}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </section>
       </main>
       <Footer />
