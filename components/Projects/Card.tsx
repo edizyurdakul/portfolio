@@ -14,8 +14,10 @@ type Project = {
 function Card({ project }: Project) {
   return (
     <div className="py-2 border-b-zinc-700 border-b-[1px] transition-all ease-in-out hover:scale-[101%]">
-      <h3 className="text-lg mb-2">{project.name}</h3>
-      <p className="font-light">{project.description}</p>
+      <h3 className="text-lg font-medium mb-2">{project.name}</h3>
+      <p className="font-normal text-zinc-700  dark:text-zinc-400">
+        {project.description}
+      </p>
       <div className="flex space-x-2 mt-2">
         {project.github != "" ? (
           <a

@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           </p>
           <NextLink href="/resume">
             <a className="mt-8">
-              <span className="button text-zinc-50 ">
+              <span className="button text-zinc-50">
                 <span className="button-background"></span>
                 <span className="button-text transition-all ease-in-out border border-zinc-900 hover:border hover:border-zinc-50">
                   Resume
@@ -58,9 +58,13 @@ const Home: NextPage = () => {
             <div key={i}>
               <div className="flex justify-between">
                 <h3 className="text-lg">{exp.company}</h3>
-                <p className="text-sm font-extralight">{exp.date}</p>
+                <p className="text-sm font-normal text-zinc-700  dark:text-zinc-400">
+                  {exp.date}
+                </p>
               </div>
-              <p className="text-sm font-extralight">{exp.job_title}</p>
+              <p className="text-sm font-normal text-zinc-700  dark:text-zinc-400">
+                {exp.job_title}
+              </p>
             </div>
           ))}
         </section>
@@ -73,22 +77,34 @@ const Home: NextPage = () => {
                   <h3 className="text-lg font-medium mb-2">{skill.name}</h3>
                   <div>
                     {skill?.frameworks?.map((framework, index) => (
-                      <p className="font-light text-zinc-300" key={index}>
+                      <p
+                        className="font-normal text-zinc-700  dark:text-zinc-400"
+                        key={index}
+                      >
                         {framework}
                       </p>
                     ))}
                     {skill?.languages?.map((framework, index) => (
-                      <p className="font-light text-zinc-300" key={index}>
+                      <p
+                        className="font-normal text-zinc-700  dark:text-zinc-400"
+                        key={index}
+                      >
                         {framework}
                       </p>
                     ))}
                     {skill?.tools?.map((framework, index) => (
-                      <p className="font-light text-zinc-300" key={index}>
+                      <p
+                        className="font-normal text-zinc-700  dark:text-zinc-400"
+                        key={index}
+                      >
                         {framework}
                       </p>
                     ))}
                     {skill?.design?.map((framework, index) => (
-                      <p className="font-light text-zinc-300" key={index}>
+                      <p
+                        className="font-normal text-zinc-700  dark:text-zinc-400"
+                        key={index}
+                      >
                         {framework}
                       </p>
                     ))}

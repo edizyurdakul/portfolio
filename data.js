@@ -14,6 +14,8 @@ export const details = {
     { name: "Tools", tools: ["Git & GitHub", "Chrome Devtools"] },
     { name: "Design", design: ["Figma"] },
   ],
+  github: "https://github.com/edizyurdakul",
+  linkedin: "https://www.linkedin.com/in/edizyurdakul/",
 };
 
 export const hero = {
