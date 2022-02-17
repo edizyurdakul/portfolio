@@ -39,7 +39,7 @@ function Header() {
         Skip to content
       </a>
       {/* inspired by lee rob */}
-      <header className="flex justify-between items-center pt-8 pb-32">
+      <header className="flex justify-between items-center pt-8">
         <div className="md:hidden">
           <Menu as="div" className="relative inline-block text-left">
             <div>

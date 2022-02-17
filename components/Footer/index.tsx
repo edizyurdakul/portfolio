@@ -18,7 +18,7 @@ function Footer() {
   const { theme, setTheme } = useTheme();
   return (
     <>
-      <hr className="mt-32 pb-8 border-zinc-700" />
+      <hr className="pb-8 border-zinc-700" />
       <footer className="flex space-x-8">
         <ul className="flex flex-col space-y-4">
           <NavItem href="/" text="Home" />
