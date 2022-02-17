@@ -2,7 +2,8 @@ import type { NextPage } from "next";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Works from "../components/Works";
-import { hero, details } from "../data";
+import Projects from "../components/Projects";
+import { hero, details, about } from "../data";
 import NextHead from "next/head";
 import NextLink from "next/link";
 
@@ -39,22 +40,17 @@ const Home: NextPage = () => {
           </NextLink>
         </section>
         <section className="pt-32">
-          <h2 className="font-bold text-3xl mb-4">About Me</h2>
-          <p className="font-normal mb-2">
-            Hello! I’m a frontend developer based in Cape Town, South Africa
-            specialized in front end development, using modern technologies such
-            as React, Next.JS , Gatsby.JS, and more.
-          </p>
-          <p className="font-normal">
-            Proficient in a wide range of development and testing tools as well
-            as version control tools. A continuous learner, keeping up with new
-            technologies and changes to languages and frameworks such as React
-            18, Next. JS 12.
-          </p>
+          <h2 className="font-bold text-3xl mb-4">{about.title}</h2>
+          <p className="font-normal mb-2">{about.first_paragraph}</p>
+          <p className="font-normal">{about.second_paragraph}</p>
         </section>
         <section className="pt-32">
           <h2 className="font-bold text-3xl mb-4 ">Featured Work</h2>
           <Works />
+        </section>
+        <section className="pt-32">
+          <h2 className="font-bold text-3xl mb-4 ">Projects</h2>
+          <Projects />
         </section>
       </main>
       <Footer />

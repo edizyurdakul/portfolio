@@ -11,6 +11,14 @@ export const hero = {
     " Hello! I’m a front-end developer based in Cape Town, South Africa. I spend most of my time learning more to develop my skills.",
 };
 
+export const about = {
+  title: "About Me",
+  first_paragraph:
+    "Hello! I’m a frontend developer based in Cape Town, South Africa specialized in front end development, using modern technologies such as React, Next.JS , Gatsby.JS, and more.",
+  second_paragraph:
+    "Proficient in a wide range of development and testing tools as well as version control tools. A continuous learner, keeping up with new technologies and changes to languages and frameworks such as React 18, Next. JS 12.",
+};
+
 export const works = [
   {
     id: 1,
