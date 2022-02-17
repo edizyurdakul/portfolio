@@ -32,7 +32,7 @@ function Header() {
     <>
       {/* inspired by lee rob */}
       <a
-        href="#contet"
+        href="#content"
         aria-label="Skip to content"
         className="p-2 absolute top-[-25%] transition-all ease-in-out focus:top-[10%]"
       >
