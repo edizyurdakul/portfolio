@@ -13,7 +13,7 @@ type Work = {
 
 function Card({ work }: Work) {
   return (
-    <div className="p-8 dark:bg-zinc-800 rounded-[4px] bg-zinc-100 shadow-sm hover:shadow-lg transition-all ease-in-out hover:translate-y-[-2px]">
+    <div className="p-8 dark:bg-zinc-800 rounded-[4px] bg-zinc-100 shadow-sm hover:shadow-lg transition-all ease-in-out hover:scale-[101%]">
       {work.stack.length <= 0 ? null : (
         <div className="flex space-x-2 mb-2 text-zinc-50">
           {work.stack.map((skill, i) => (

@@ -30,8 +30,9 @@
 @layer base {
   @font-face {
     font-family: "Switzer Variable";
-    src: url("/static/switzer-variable.woff2") format("woff2"),
-      url("/static/switzer-variable.woff") format("woff");
+    src: url("/fonts/switzer-variable.woff2") format("woff2"),
+      url("/fonts/switzer-variable.woff") format("woff"),
+      url("/fonts/switzer-variable.ttf") format("truetype");
     font-weight: 100 900;
     font-display: optional;
     font-style: normal;
