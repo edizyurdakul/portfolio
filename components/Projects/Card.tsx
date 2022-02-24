@@ -24,7 +24,7 @@ function Card({ project }: Project) {
             rel="noopener noreferrer"
             className="px-2 py-1 dark:text-zinc-50 dark:bg-zinc-800 dark:border-zinc-900 hover:dark:border-zinc-50 transition-all ease-in-out text-zinc-900 hover:border-zinc-900 border border-zinc-200 bg-zinc-200 rounded-[4px] min-w-[120px] w-fit flex justify-center"
             target="_blank"
-            href={project.live}
+            href={project.github}
           >
             GitHub
           </a>
