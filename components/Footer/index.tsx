@@ -42,6 +42,15 @@ function Footer() {
               LinkedIn
             </a>
           </li>
+          <li className="dark:text-zinc-400 w-fit text-zinc-600 p-2 transition-all ease-in-out rounded-md dark:hover:bg-zinc-800 dark:hover:text-zinc-200 hover:bg-zinc-200 hover:text-zinc-900">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href={details.linkedin}
+            >
+              Twitter
+            </a>
+          </li>
         </ul>
       </footer>
     </>

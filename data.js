@@ -16,6 +16,7 @@ export const details = {
   ],
   github: "https://github.com/edizyurdakul",
   linkedin: "https://www.linkedin.com/in/edizyurdakul/",
+  twitter: "https://twitter.com/EdizYurdakul",
 };
 
 export const hero = {

@@ -17,7 +17,6 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta property="og:title" content="Frontend Web Developer" />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
@@ -53,13 +52,6 @@ class MyDocument extends Document {
           />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
-          <link
-            rel="preload"
-            href="/static/switzer-variable.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
-          />
           <link
             rel="preload"
             href="/fonts/switzer-variable.woff2"
