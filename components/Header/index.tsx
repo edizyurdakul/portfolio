@@ -82,7 +82,7 @@ function Header() {
                 <div aria-label="Navigate to about page" className="px-1">
                   <Menu.Item as={"a"}>
                     {({ active }) => (
-                      <NextLink href="/about" passHref>
+                      <NextLink href="#about" passHref>
                         <a>
                           <button
                             className={`${
@@ -101,7 +101,7 @@ function Header() {
                 <div aria-label="Navigate to projects page" className="px-1">
                   <Menu.Item as={"a"}>
                     {({ active }) => (
-                      <NextLink href="/projects" passHref>
+                      <NextLink href="#projects" passHref>
                         <a>
                           <button
                             className={`${
@@ -120,7 +120,7 @@ function Header() {
                 <div aria-label="Navigate to contact page" className="px-1">
                   <Menu.Item as={"a"}>
                     {({ active }) => (
-                      <NextLink href="/contact" passHref>
+                      <NextLink href="#contact" passHref>
                         <a>
                           <button
                             className={`${
@@ -145,13 +145,13 @@ function Header() {
             <NavItem href="/" text="Home" />
           </li>
           <li>
-            <NavItem href="/about" text="About" />
+            <NavItem href="#about" text="About" />
           </li>
           <li>
-            <NavItem href="/projects" text="Projects" />
+            <NavItem href="#projects" text="Projects" />
           </li>
           <li>
-            <NavItem href="/contact" text="Contact" />
+            <NavItem href="#contact" text="Contact" />
           </li>
         </ul>
         <button

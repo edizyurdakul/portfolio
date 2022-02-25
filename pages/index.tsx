@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Works from "../components/Works";
 import Projects from "../components/Projects";
+import Form from "../components/Form";
 import { hero, details, about, experience } from "../data";
 import NextHead from "next/head";
 import NextLink from "next/link";
@@ -39,20 +40,20 @@ const Home: NextPage = () => {
             </a>
           </NextLink>
         </section>
-        <section className="pt-32">
+        <section id="about" className="pt-32">
           <h2 className="font-bold text-3xl mb-4">{about.title}</h2>
           <p className="font-normal mb-2">{about.first_paragraph}</p>
           <p className="font-normal">{about.second_paragraph}</p>
         </section>
-        <section className="pt-32">
+        <section id="work" className="pt-32">
           <h2 className="font-bold text-3xl mb-4 ">Featured Work</h2>
           <Works />
         </section>
-        <section className="pt-32">
+        <section id="projects" className="pt-32">
           <h2 className="font-bold text-3xl mb-4 ">Projects</h2>
           <Projects />
         </section>
-        <section className="pt-32">
+        <section id="experience" className="pt-32">
           <h2 className="font-bold text-3xl mb-4 ">Experience</h2>
           {experience.map((exp, i) => (
             <div key={i}>
@@ -68,7 +69,7 @@ const Home: NextPage = () => {
             </div>
           ))}
         </section>
-        <section className="pt-32">
+        <section id="skills" className="pt-32">
           <h2 className="font-bold text-3xl mb-4 ">Skills</h2>
           {details.skills.length <= 0 ? null : (
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -113,6 +114,20 @@ const Home: NextPage = () => {
               ))}
             </div>
           )}
+        </section>
+
+        <section id="contact" className="pt-32">
+          <h2 className="font-bold text-3xl mb-4 ">Contact</h2>
+          <p className="mb-4">
+            I’m currently looking for any new opportunities
+          </p>
+          <a
+            rel="noopener noreferrer"
+            className="px-2 py-1 dark:text-zinc-50 dark:bg-zinc-800 dark:border-zinc-900 hover:dark:border-zinc-50 transition-all ease-in-out text-zinc-900 hover:border-zinc-900 border border-zinc-200 bg-zinc-200 rounded-[4px] min-w-[120px] w-fit flex justify-center"
+            href="mailto:edizyurdakul@gmail.com"
+          >
+            Contact
+          </a>
         </section>
       </main>
     </>
