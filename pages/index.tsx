@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Works from "../components/Works";
 import Projects from "../components/Projects";
-import Form from "../components/Form";
 import { hero, details, about, experience } from "../data";
 import NextHead from "next/head";
 import NextLink from "next/link";
