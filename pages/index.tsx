@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           <p className="font-normal text-zinc-900  dark:text-zinc-300 pt-4 sm:w-[55ch] w-[100%] mb-4">
             {description}
           </p>
-          <NextLink href="/resume">
+          <NextLink href="/resume.pdf">
             <a className="mt-8">
               <span className="button text-zinc-50">
                 <span className="button-background"></span>
