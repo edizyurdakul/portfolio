@@ -1,6 +1,4 @@
 import type { NextPage } from "next";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import Works from "../components/Works";
 import Projects from "../components/Projects";
 import { hero, details, about, experience } from "../data";
