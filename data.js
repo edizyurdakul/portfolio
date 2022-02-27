@@ -58,6 +58,15 @@ export const works = [
 export const projects = [
   {
     id: 1,
+    name: "NewHome",
+    stack: ["REACT", "FIREBASE", "TAILWINDCSS"],
+    description:
+      "NewHome is a House marketplace for people to add their properties as listings.",
+    live: "https://newhome-blue.vercel.app/",
+    github: "https://github.com/edizyurdakul/newhome",
+  },
+  {
+    id: 2,
     name: "Github Scout",
     stack: ["REACT", "CHAKRA-UI", "GITHUB API"],
     description:
@@ -66,7 +75,7 @@ export const projects = [
     github: "https://github.com/edizyurdakul/github-scout",
   },
   {
-    id: 2,
+    id: 3,
     name: "Feedback App",
     stack: ["REACT", "CHAKRA-UI", "JSON-SERVER"],
     description:
