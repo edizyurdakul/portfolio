@@ -23,7 +23,7 @@ export const hero = {
   title: "Ediz Yurdakul",
   subTitle: "Front-end Web Developer",
   description:
-    " Hello! I’m a front-end developer based in Cape Town, South Africa. I spend most of my time learning more to develop my skills.",
+    "Hello! I’m a front-end developer based in Cape Town, South Africa. I spend most of my time learning more to develop my skills.",
 };
 
 export const about = {
