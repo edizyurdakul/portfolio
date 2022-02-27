@@ -23,9 +23,9 @@ function Footer() {
       <footer className="flex space-x-8 mb-8">
         <ul className="flex flex-col space-y-4">
           <NavItem href="/" text="Home" />
-          <NavItem href="/about" text="About" />
-          <NavItem href="/projects" text="Projects" />
-          <NavItem href="/contact" text="Contact" />
+          <NavItem href="#about" text="About" />
+          <NavItem href="#projects" text="Projects" />
+          <NavItem href="#contact" text="Contact" />
         </ul>
         <ul className="flex flex-col space-y-4">
           <li className="dark:text-zinc-400 w-fit text-zinc-600 p-2 transition-all ease-in-out rounded-md dark:hover:bg-zinc-800 dark:hover:text-zinc-200 hover:bg-zinc-200 hover:text-zinc-900">
