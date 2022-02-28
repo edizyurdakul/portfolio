@@ -58,6 +58,15 @@ export const works = [
 export const projects = [
   {
     id: 1,
+    name: "NextJS Resume Builder",
+    stack: ["NEXTJS", "HTML-PDF", "MANTINE"],
+    description:
+      "Free to use resume builder for developers. Clean and ATS friendly",
+    live: "https://nextjs-resume-builder.vercel.app",
+    github: "https://github.com/edizyurdakul/nextjs-resume-builder",
+  },
+  {
+    id: 2,
     name: "NewHome",
     stack: ["REACT", "FIREBASE", "TAILWINDCSS"],
     description:
@@ -66,7 +75,7 @@ export const projects = [
     github: "https://github.com/edizyurdakul/newhome",
   },
   {
-    id: 2,
+    id: 3,
     name: "Github Scout",
     stack: ["REACT", "CHAKRA-UI", "GITHUB API"],
     description:
@@ -75,7 +84,7 @@ export const projects = [
     github: "https://github.com/edizyurdakul/github-scout",
   },
   {
-    id: 3,
+    id: 4,
     name: "Feedback App",
     stack: ["REACT", "CHAKRA-UI", "JSON-SERVER"],
     description:
