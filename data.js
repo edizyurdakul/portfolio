@@ -5,7 +5,14 @@ export const details = {
   skills: [
     {
       name: "Frameworks",
-      frameworks: ["React", "NextJS", "GatsbyJS", "TailwindCSS", "Chakra UI"],
+      frameworks: [
+        "React",
+        "NextJS",
+        "GatsbyJS",
+        "TailwindCSS",
+        "Mantine",
+        "Chakra UI",
+      ],
     },
     {
       name: "Languages",
