@@ -44,13 +44,22 @@ export const about = {
 export const works = [
   {
     id: 1,
-    name: "Hamshack Radio",
-    stack: ["NEXT.JS", "STRAPI", "CHAKRA-UI"],
+    name: "Globalize Yourself Radio",
+    stack: ["NEXT.JS", "STRAPI", "TAILWIND-CSS"],
     description:
-      "Hamshack Radio is an online radio station and independent cultural platform based in Cape Town, South Africa.",
-    live: "https://hamshackradio.live",
+      "Globalize Yourself Stereo is an online radio station, and event organizer based in Cape Town, South Africa.",
+    live: "https://www.gys-africa.live/",
     github: "private",
   },
+  // {
+  //   id: 2,
+  //   name: "Hamshack Radio",
+  //   stack: ["NEXT.JS", "STRAPI", "CHAKRA-UI"],
+  //   description:
+  //     "Hamshack Radio is an online radio station and independent cultural platform based in Cape Town, South Africa.",
+  //   live: "https://hamshackradio.live",
+  //   github: "private",
+  // },
   {
     id: 2,
     name: "Consermul S.A",
