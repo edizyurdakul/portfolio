@@ -155,6 +155,7 @@ function Header() {
           </li>
         </ul>
         <button
+          aria-label="Change dark or light mode"
           className="bg-zinc-200 dark:bg-zinc-800 text-xl p-2 rounded-md transition-all ease-in-out hover:ring-2 hover:ring-zinc-400 dark:hover:ring-2 dark:hover:ring-zinc-700"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >

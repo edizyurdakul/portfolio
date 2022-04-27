@@ -45,7 +45,7 @@ export const works = [
   {
     id: 1,
     name: "Hamshack Radio",
-    stack: ["NEXT.JS", "STRAPI", "GRAPHQL", "TYPESCRIPT"],
+    stack: ["NEXT.JS", "STRAPI", "GRAPHQL", "TYPESCRIPT", "TAILWIND CSS"],
     description:
       "Hamshack Radio is an online radio station and independent cultural platform based in Cape Town, South Africa.",
     live: "https://hamshackradio.live",
@@ -54,7 +54,7 @@ export const works = [
   {
     id: 2,
     name: "Globalize Yourself Radio",
-    stack: ["NEXT.JS", "STRAPI", "TAILWIND-CSS"],
+    stack: ["NEXT.JS", "STRAPI", "TAILWIND CSS"],
     description:
       "Globalize Yourself Stereo is an online radio station, and event organizer based in Cape Town, South Africa.",
     live: "https://www.gys-africa.live/",
