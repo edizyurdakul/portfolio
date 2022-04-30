@@ -67,7 +67,7 @@ export const works = [
     stack: ["NEXT.JS", "SASS"],
     description:
       "Consermul S.A, is a consulting, maintenance and construction company based in Panama",
-    live: "http://consermulsa.com",
+    live: "https://consermulsa.com",
     github: "https://github.com/edizyurdakul/ConsermulSA",
   },
 ];
