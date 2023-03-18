@@ -26,4 +26,4 @@ Visit http://localhost:3000/
 
 ## Cloning / Forking
 
-Please remove all of my personal information (resume, images, content) and would appreciate receiving credit back to my website.
+Please remove all of my personal information (resume, images, content, etc.) and would appreciate receiving credit back to my website.
