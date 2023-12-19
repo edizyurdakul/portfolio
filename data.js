@@ -48,7 +48,7 @@ export const works = [
     stack: ["NEXT.JS", "STRAPI", "GRAPHQL", "TYPESCRIPT", "TAILWIND CSS"],
     description:
       "Hamshack Radio is an online radio station and independent cultural platform based in Cape Town, South Africa.",
-    live: "https://hamshackradio.live",
+    live: "https://staging-hamshackradio.vercel.app/",
     github: "private",
   },
   {
